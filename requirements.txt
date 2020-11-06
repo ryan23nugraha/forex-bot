@@ -11,4 +11,4 @@ pymongo==3.11.0
 six==1.15.0
 toml==0.10.1
 wrapt==1.12.1
-requests==1.25.11
+requests==2.24.0
