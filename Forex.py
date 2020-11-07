@@ -9,7 +9,7 @@ os.system('cls')
 try:
     client = pymongo.MongoClient(
         "mongodb+srv://test:1234@cluster0.fpun3.mongodb.net/forex?retryWrites=true&w=majority")
-    db = client.test
+    db = client.forex
     collection = db.data
     print("connect to MongoDB")
 except:
