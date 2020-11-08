@@ -8,9 +8,9 @@ os.system('cls')
 
 try:
     client = pymongo.MongoClient(
-        "mongodb+srv://test:1234@cluster0.fpun3.mongodb.net/forex?retryWrites=true&w=majority")
+        "mongodb+srv://Forex23:7bCnUVU09Vlq6TS0@cluster0.fpun3.mongodb.net/forex?retryWrites=true&w=majority")
     db = client.forex
-    collection = db.data
+    collection = db.EURUSD
     print("connect to MongoDB")
 except:
     print("Could not connect to MongoDB")
